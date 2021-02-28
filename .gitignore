@@ -1,0 +1,4 @@
+/node_modules
+
+# Best Practices
+.env

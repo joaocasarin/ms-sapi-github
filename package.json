@@ -1,0 +1,33 @@
+{
+  "name": "ms-sapi-getrepos",
+  "version": "1.0.0",
+  "description": "microservice for getting github repositories information from mongoDb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "microservice",
+    "nodejs",
+    "express",
+    "axios",
+    "ms"
+  ],
+  "author": "Joao Vitor Casarin",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.18"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^1.19.1"
+  },
+  "env": {
+    "NODE_ENV": "development"
+  }
+}
